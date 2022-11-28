@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="review.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="navi intro">
+        <nav class="nv">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <!-- <li><a href="#about">About</a></li> -->
+                <li><a href="team.html">Team</a></li>
+                <li><a href="Review.html">Review</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div class="static-txt">SDL is</div>
+            <ul class="dynamic-txts">
+              <li><span>Fun</span></li>
+              <li><span>Engaging</span></li>
+              <li><span>Educative</span></li>
+              <li><span>Informative</span></li>
+            </ul>
+          </div>
+    
+    </section>
+    <h1 class="sep">STUDENT'S VIEW</h1>
+    <section id="schools">
+    <div class="bimage" >
+        <div class="card">
+            <div class="imgBx">
+                <img src="elys.PNG" alt="" id="ict">
+            </div>
+            <div class="contentBx">
+                <div class="content">
+                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                   <p>At first I didn't see the need of SDL, but now there's no amount of words to explain how much it has transformed me.</p>
+                   <i class="fa-sharp fa-solid fa-quote-right"></i>
+                   <span class="name">Elysee Kwitonda</span>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src="divine.JPG" alt="" id="eng">
+            </div>
+            <div class="contentBx">
+                <div class="content">
+                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                    
+                    <p>
+                        SDL provided a platform to grow as a person, especially in week five where we had to choose tiny habits that we presented in week 10.
+                    </p>
+                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                    <span class="name">Divine Izihirwe</span>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="imgBx">
+                <img src="guenn.JPG" alt="" id="archt">
+            </div>
+            <div class="contentBx">
+                <div class="content">
+                    <i class="fa-sharp fa-solid fa-quote-left"></i>
+                    
+                    <p>This is a very engaging lesson. It has been so fun in SDL especially the practicals, the negpod discussions, among others</p>
+                    <i class="fa-sharp fa-solid fa-quote-right"></i>
+                    <span class="name">Guenn Ruzindana</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <h1 class="sep">IN-CLASS EXPERIENCE</h1>
+
+    <section class="in-class">
+         <div class="container"> 
+            <div class="row">
+                <div class="roww">
+                    <img src="C1.JPG" alt="">
+                <p>Students are grouped into study groups called NegPods where they get together and discuss their academic journey. Each NegPod has their leader and they have to meet with their learning coach once every 2 weeks.</p>
+                </div>
+                <div class="roww">
+                    <p>They are facilitated in the classroom but the learning is entirely based on them. They are given a study topic and then discuss in NegPods then later have a debrief with the facilitator.</p>
+                    <img src="C2.JPG" alt="">
+                </div>
+            </div>            
+        </div> 
+    </section>
+    <footer>
+        <div class="footer-content">
+            <h3>Self Directed Learning-Lab</h3>
+            <p>A lesson that transitions into college life! We welcome you to ALU <br> Can't wait to see you <br>Check out our socials</p>
+            <ul class="socials">
+                <!-- <li><a href="facebook.com"><i class="fa-brands fa-facebook"></i></a></li> -->
+                <li><a href="instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><h4>selfdirectedlearning</h4></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2022 SDL <span>@Junior</span></p>
+        </div>
+    </footer>
+    <style>
+        
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: #3586ff;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+          background-color: #555;
+        }
+        </style>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
